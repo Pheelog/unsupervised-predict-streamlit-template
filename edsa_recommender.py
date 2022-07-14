@@ -106,9 +106,9 @@ def main():
         st.title("Solution Overview")
         st.write("Describe your winning approach on this page")
 	
-    if page_selection == "Solution Overview":
-        st.title("Solution Overview")
-        st.write("Describe your winning approach on this page")    
+    if page_selection == "About Us":
+        st.title("About Us")
+        st.write("Polaroid is an institution that makes sense of data using machine learning methods to provide solutions that improve lives. Our mission is to drive changes that lead to a greener earth.")    
 	
 
 
