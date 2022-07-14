@@ -36,6 +36,8 @@ import numpy as np
 from utils.data_loader import load_movie_titles
 from recommenders.collaborative_based import collab_model
 from recommenders.content_based import content_model
+import joblib,os
+import base64
 
 # Data Loading
 title_list = load_movie_titles('resources/data/movies.csv')
@@ -103,6 +105,12 @@ def main():
     if page_selection == "Solution Overview":
         st.title("Solution Overview")
         st.write("Describe your winning approach on this page")
+	
+    if page_selection == "Solution Overview":
+        st.title("Solution Overview")
+        st.write("Describe your winning approach on this page")    
+	
+
 
     # You may want to add more sections here for aspects such as an EDA,
     # or to provide your business pitch.
