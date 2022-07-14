@@ -36,8 +36,6 @@ import numpy as np
 from utils.data_loader import load_movie_titles
 from recommenders.collaborative_based import collab_model
 from recommenders.content_based import content_model
-import joblib,os
-import base64
 
 # Data Loading
 title_list = load_movie_titles('resources/data/movies.csv')
