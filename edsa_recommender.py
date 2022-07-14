@@ -108,7 +108,8 @@ def main():
 	
     if page_selection == "About Us":
         st.title("About Us")
-        st.write("Polaroid is an institution that makes sense of data using machine learning methods to provide solutions that improve lives. Our mission is to drive changes that lead to a greener earth.")    
+        st.write("Polaroid is an institution that makes sense of data using machine learning methods to \
+		  provide solutions that improve lives. Our mission is to drive changes that lead to a greener earth.")    
 	
 
 
