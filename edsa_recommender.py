@@ -101,11 +101,42 @@ def main():
 
     # ------------- SAFE FOR ALTERING/EXTENSION -------------------
     if page_selection == "Solution Overview":
-        st.title("Solution Overview")
-        st.write("Describe your winning approach on this page")
-	
-
-	
+        st.title("Problem statement")
+        st.write("To build a robust Machine Learning Model that will be able to accurately give personalised movies reccommendations to movie lovers. Hence, generating platform affinity for the streaming services which best facilitates their audience's viewing.")
+        
+        st.image('resources/imgs/image1.png',use_column_width=True)
+        
+        st.title("EDA")
+        st.write("Primarily, EDA is for seeing what the data can tell us beyond the formal modeling or hypothesis testing task.This approach for data analysis uses many tools(mainly graphical to maximize insight into a data set, extract important variables, detect outliers and anomalies, amongst other details that is missed when looking at DataFrame. This step is very important especially when we model the data in order to apply Machine Learning techniques.")
+        
+        st.image('resources/imgs/image2.png',use_column_width=True)
+        st.write("This chart shows the top 30 most rated movies. Shawshank Redemption got the most rating. Some movies got an average of 5 stars rating, but in the course of our analysis, we discovered that the number of ratings they got was very few, hence that was possible. What this chart shows is that, Shawshank Redemption got the most number of Users rating it >3.9 .")
+        
+        st.image('resources/imgs/image3.png',use_column_width=True)
+        st.write("This chart shows the top 30 movie viewers. This information is useful to identify the movie preference of top customers. these top customers are most likely influencers and can make users watch a movie they probably wouldn't have considered watching.")
+        
+        st.image('resources/imgs/image4.png',use_column_width=True)
+        st.write("This chart shows the years with the highest number of movies produced. This information will help you to visually explore how the movie industry has performed over the years")
+        
+        st.image('resources/imgs/image5.png',use_column_width=True)
+        st.write("This chart shows the genres that appears most in the dataset we trained our model with. This information will enable us understand the genres of movies produced most for the period the data was captured.")
+        
+    if page_selection == "About Us":
+        st.image('resources/imgs/Originals_Logo.png',width=400)
+        
+        st.title("About Us")
+        st.write("The source, the core from where every creativity and ingenuity emanates, \
+                  The Originals, we are a team of data scientist, sold out to solving \
+                  real human problems with flavour and style. ")
+        
+        st.image('resources/imgs/pheel.png',use_column_width=True)
+        
+        st.title("Our Mission")
+        st.write("Use data to optimize human possibilities of attaining excellence, one solution at a time.")
+        
+        st.title("Our Vision")
+        st.write("Improve living conditions, championing new innovations powered by data")
+        
 
 
     # You may want to add more sections here for aspects such as an EDA,
